@@ -6,7 +6,7 @@ organization := "com.example"
 
 version := "0.1"
 
-scalaVersion := "2.10.7"
+scalaVersion := "2.13.7"
 
 seq(SbtStartScript.startScriptForClassesSettings: _*)
 
