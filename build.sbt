@@ -15,7 +15,7 @@ scalacOptions += "-deprecation"
 resolvers += Resolver.bintrayRepo("heroku", "maven")
 
 libraryDependencies ++= Seq(
-  "com.heroku.sdk" % "heroku-deploy" % "2.0.16"
+  "com.heroku.sdk" % "heroku-deploy" % "3.0.4"
 )
 
 publishMavenStyle := false
